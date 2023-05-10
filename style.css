@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: Norse;
+    src: url('./Norse-Bold.otf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.side-hero{
+    display: flex;
+    max-width: 450px;
+    background-image: url(./images/john-fowler-7Ym9rpYtSdA-unsplash.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+ 
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+    background-color: rgb(82, 81, 81,.5);
+    padding: 5px 110px 5px 100px;
+}
+img{
+    height: 120px;
+    width: 90px; 
+}
+.logo div{
+    color: white;
+    font-family: Norse;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.description{
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(34, 33, 33,.1);
+}
+fieldset{
+    border: none;
+    display: flex;
+    gap: 4rem;
+}
+.form-container{
+    background-color: #FFF;
+    padding: 2rem 2rem;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 33%;
+}
