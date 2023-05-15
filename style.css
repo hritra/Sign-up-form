@@ -125,13 +125,11 @@ input:focus:invalid{
     border: red;
 }
 .info p{
+    width: 70%;
     font-size: 12px;
     font-family: "Wix Madefor Display";
+    padding: 4px;
     margin-top: 10px;
-    color: white;
-    background-color: green;
-    width: 70%;
-    padding: 8px;
 }
 a{
     text-decoration: none;
