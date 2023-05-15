@@ -31,21 +31,21 @@
                     <fieldset>
                         <div class="info">
                             <label for="fname">First Name:</label>
-                            <input type="text" name="First-name" id="fname">
+                            <input type="text" name="First-name" id="fname" required>
                         </div>
                         <div class="info">
                             <label for="lname">Last Name:</label>
-                            <input type="text" name="Last-name" id="lname">
+                            <input type="text" name="Last-name" id="lname" required>
                         </div>
                     </fieldset>
                     <fieldset>
                         <div class="info">
                             <label for="mail">Email:</label>
-                            <input type="email" name="email" id="mail">
+                            <input type="email" name="email" id="mail" required>
                         </div>
                         <div class="info">
                             <label for="phno">Phone Number:</label>
-                            <input type="text" name="Phone" id="phno">
+                            <input type="text" name="Phone" id="phno" required>
                         </div>
                     </fieldset>
                     <fieldset>
@@ -56,15 +56,17 @@
                         <div class="info">
                             <label for="conpass">Confirm Password:</label>
                             <input type="password" name="Confirm-pass" id="conpass">
+                            <p id="message"></p>
                         </div>
                     </fieldset>
                 </div>
                 <div class="button-area">
-                   <button type="submit">Create Account</button>
+                   <button type="submit" value="SUBMIT" onclick="checkPassword()">Create Account</button>
                    <p>Already have an account?<a href="#"> Log in!</a></p>
                 </div>
             </form>
      </main>
  </div>
+ <script src="script.js"></script>
 </body>
 </html>
